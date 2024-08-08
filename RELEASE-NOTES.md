@@ -39,7 +39,7 @@ END TEMPLATE-->
 
 ### New features
 
-*None yet*
+* Added `InterpolatedStringHandlerArgumentAttribute` to the sandbox whitelist.
 
 ### Bugfixes
 
@@ -52,6 +52,24 @@ END TEMPLATE-->
 ### Internal
 
 *None yet*
+
+
+## 229.1.2
+
+### Bugfixes
+
+* Fixed a bug where the client might not add entities to the broadphase/lookup components.
+
+
+## 229.1.1
+
+### Bugfixes
+
+* Fix some teleportation commands not working in singleplayer or replays
+
+### Other
+
+* Audio entity names now include the filepath of the audio being played if relevant for debugging.
 
 
 ## 229.1.0
